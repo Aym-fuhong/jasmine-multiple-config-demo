@@ -1,0 +1,13 @@
+{
+  "name": "jasmine-multiple-config-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-all": "JASMINE_CONFIG_PATH=spec/support/jasmine-all.json jasmine || exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
